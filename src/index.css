@@ -1,0 +1,62 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 600px; /* Adjust this value based on the expected height of the paragraph */
+}
+ 
+ 
+ div{
+  margin-top: 20px;
+  padding-top: 30px;
+  display: flex;
+  justify-content: center ;
+ }
+
+.main-div{
+display: flex;
+flex-direction: column;
+background: rgba(0, 0, 0, 0.8);
+border-radius: 10px;
+height: 440px;
+width: 440px;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+align-items: center;
+}
+
+.main-heading{
+  display: flex;
+  justify-content: center;
+  color: aqua;
+  }
+
+.question-input{
+  margin: 50px;
+  margin-top: 10;
+  width: 300px;
+  height: 80px;
+   }
+
+.ans-btn{
+ width: 150px;
+ height: 23px;
+ background-color: aqua;
+ margin-top: 80px;
+ border: 1px solid;
+ border-radius: 3px;
+ cursor: pointer;
+  }
+
+  button:hover{
+    background-color: rgb(121, 203, 203);
+  }
+ 
+.ans-para{
+ 
+  background-color: aqua;
+  margin-top: 40px;
+  padding: 20px;
+  border-radius: 6px;
+}
+ 
+ 
